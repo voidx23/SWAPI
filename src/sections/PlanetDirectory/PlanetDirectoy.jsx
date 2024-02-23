@@ -14,7 +14,7 @@ function PlanetDirectoy() {
     const goToPreviousPage = () => {
         const targetElement = document.querySelector('.card-main');
         const targetElementPosition = targetElement.getBoundingClientRect().top;
-        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        const currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
 
         window.scrollTo({
             top: currentScrollPosition + targetElementPosition,
@@ -27,7 +27,7 @@ function PlanetDirectoy() {
     const goToNextPage = () => {
         const targetElement = document.querySelector('.card-main');
         const targetElementPosition = targetElement.getBoundingClientRect().top;
-        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        const currentScrollPosition = window.scrollY || document.documentElement.scrollTop;
 
         window.scrollTo({
             top: currentScrollPosition + targetElementPosition,
@@ -36,7 +36,6 @@ function PlanetDirectoy() {
 
         setApiPoint(nextPageUrl);
     };
-
     useEffect(() => {
         const fetchPlanets = async () => {
             try {
