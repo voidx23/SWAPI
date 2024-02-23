@@ -12,20 +12,28 @@ function PlanetDirectoy() {
     const [apiPoint, setApiPoint] = useState('https://swapi.dev/api/planets/?page=1&format=json')
 
     const goToPreviousPage = () => {
-        const scrollPosition = 1400; // Set the Y coordinate to scroll to
+        const targetElement = document.querySelector('.card-main');
+        const targetElementPosition = targetElement.getBoundingClientRect().top;
+        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
         window.scrollTo({
-            top: scrollPosition,
-            behavior: 'smooth' // Add smooth scrolling behavior
+            top: currentScrollPosition + targetElementPosition,
+            behavior: 'smooth'
         });
+
         setApiPoint(previousPageUrl);
     };
 
     const goToNextPage = () => {
-        const scrollPosition = 1400; // Set the Y coordinate to scroll to
+        const targetElement = document.querySelector('.card-main');
+        const targetElementPosition = targetElement.getBoundingClientRect().top;
+        const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
         window.scrollTo({
-            top: scrollPosition,
-            behavior: 'smooth' // Add smooth scrolling behavior
+            top: currentScrollPosition + targetElementPosition,
+            behavior: 'smooth'
         });
+
         setApiPoint(nextPageUrl);
     };
 
