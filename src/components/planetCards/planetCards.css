@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'star Wars megatrans JP';
+    src: url('../../../public/fonts/MegatransdemoRegular-8M9B0.otf');
+}
+
+.card {
+    background-image: url('../../../public/images/card-background.png');
+    background-size: contain;
+    display: flex;
+    box-shadow: 3px 3px 20px 5px rgba(51, 51, 51, 0.25);
+    border-radius: 20px;
+    font-family: 'star Wars megatrans JP';
+}
+
+img {
+    height: 80%;
+
+}
+
+p {
+    margin-bottom: 0.5rem;
+    font-size: .8rem;
+}
+
+.card-image {
+    flex: 1;
+    max-width: 33.33%;
+    /* 1/3 of the card width */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    /* Example padding */
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    flex: 2;
+    padding: 1rem;
+    /* Example padding */
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 0 0 50%;
+    /* Each child takes up 50% of the parent's width */
+    padding: 1rem;
+    /* Example padding */
+    box-sizing: border-box;
+    /* Include padding in width calculation */
+}

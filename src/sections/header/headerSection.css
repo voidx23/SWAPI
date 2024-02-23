@@ -1,0 +1,132 @@
+h1 {
+    color: white;
+    margin: 0;
+
+}
+
+
+
+/* For small screens */
+@media (max-width: 600px) {
+
+    .heading-2 {
+
+        font-family: 'star Wars Sans JP';
+        font-size: 3vw;
+        padding-bottom: 1rem;
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    .star-wars-logo {
+        width: 30vw;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .star-wars-1 {
+        width: 1000rem;
+        height: 15rem;
+
+    }
+
+    .star-wars-3 {
+
+
+        width: 1000rem;
+        height: 15rem;
+
+
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Add responsive styles for small screens */
+}
+
+/* For medium screens */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .heading-2 {
+
+        font-family: 'star Wars Sans JP';
+        font-size: 3vw;
+        padding-bottom: 5rem;
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    .star-wars-logo {
+        width: 30vw;
+        padding-top: 15rem;
+        padding-bottom: 3rem;
+    }
+
+    .star-wars-1 {
+        width: 2000rem;
+        height: 15rem;
+
+    }
+
+    .star-wars-3 {
+
+
+        width: 1000vw;
+
+
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Add responsive styles for medium screens */
+}
+
+/* For large screens */
+@media (min-width: 1025px) {
+    /* Add responsive styles for large screens */
+
+    .heading-2 {
+
+        font-family: 'star Wars Sans JP';
+        font-size: 3vw;
+        padding-bottom: 5rem;
+        width: 50vw;
+        text-align: center;
+
+    }
+
+    .star-wars-logo {
+        width: 30vw;
+        padding-top: 15rem;
+        padding-bottom: 3rem;
+    }
+
+    .star-wars-1 {
+        width: 40rem;
+
+    }
+
+    .star-wars-3 {
+
+
+        width: 28rem;
+
+
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

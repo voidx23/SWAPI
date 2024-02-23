@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'star Wars megatrans JP';
+    src: url('../../../public/fonts/MegatransdemoRegular-8M9B0.otf');
+
+}
+
+.para {
+    font-family: 'star wars megatrans JP';
+    color: white;
+    font-size: 1.25vw;
+}

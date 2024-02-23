@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'star Wars squada one';
+    src: url('../../../public/fonts/SquadaOne-Regular.ttf');
+}
+
+i {
+    color: white;
+}
+
+
+.disabled-icon {
+    color: rgb(77, 77, 77);
+}
+
+.planet-heading {
+    font-family: 'star Wars squada one';
+    font-size: 6vw;
+    text-shadow: 5px 0 0 rgb(102, 102, 102);
+    text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'star Wars Fira JP';
+    src: url('../../../public/fonts/FiraCode-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'star wars megatrans';
+    src: url('../../../public/fonts/MegatransdemoRegular-8M9B0.otf');
+}
+
+.descrip-1 {
+    font-family: 'star Wars Fira JP';
+    font-size: 4vw;
+    letter-spacing: 1vw;
+}
+
+.descrip-2 {
+    font-family: 'star wars megatrans';
+    font-size: 2vw;
+    color: rgb(251, 221, 45);
+}
