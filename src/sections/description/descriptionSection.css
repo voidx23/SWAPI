@@ -10,12 +10,38 @@
 
 .descrip-1 {
     font-family: 'star Wars Fira JP';
-    font-size: 4vw;
-    letter-spacing: 1vw;
+    font-size: 4.3vw;
+    letter-spacing: 0.5vw;
+    margin-left: 80px;
 }
 
 .descrip-2 {
     font-family: 'star wars megatrans';
-    font-size: 2vw;
+    font-size: 2.7vw;
+    line-height: 2.5rem;
     color: rgb(251, 221, 45);
+}
+
+.sateliteship {
+
+    opacity: 0.4;
+}
+
+@media (max-width: 600px) {
+    .sateliteship {
+        width: 70vw;
+        height: 200px;
+
+    }
+
+    .descrip-1 {
+        font-size: 3vw;
+        margin-left: 25px;
+    }
+
+    .descrip-2 {
+        font-size: 2vw;
+        line-height: 1.5rem;
+
+    }
 }
